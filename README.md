@@ -1,31 +1,25 @@
-# Trade Bridge — Local Vite Baseline
+# Trade Bridge
 
-This repository contains the preserved local Vite/React baseline for Trade Bridge.
+Classification: website with internal operations portal prototype
 
-Status:
-- Active runtime is local and self-contained
-- Public site routes render locally
-- Portal routes render as prototype pages
-- Forms and portal actions use local placeholder behavior only
+Current approved path:
+- Phase 1 — local runtime scrub and route stabilization in Vite/React
+- Phase 2 — baseline commit of the stable local version
+- Phase 3 — separate Next.js conversion
+- Phase 4 — production hardening
 
-Project classification:
-- Website with internal operations portal prototype
+Canonical paths:
+- Raw imports: `/home/patrick/projects/imports/trade-bridge/`
+- Temporary sandbox lane: `/home/patrick/projects/sandboxes/van/trade-bridge-phase-1-scrub/`
+- Active runnable project root: `/home/patrick/projects/websites/trade-bridge/`
+- Future Next.js lane: `/home/patrick/projects/websites/trade-bridge/source-next/`
+- Project docs: `/home/patrick/projects/websites/trade-bridge/docs/`
+- Project assets: `/home/patrick/projects/websites/trade-bridge/assets/`
+- Project reports: `/home/patrick/projects/websites/trade-bridge/reports/`
+- Project archive: `/home/patrick/projects/websites/trade-bridge/archive/`
 
-Important limitations:
-- No real backend
-- No real authentication or RBAC
-- No real file uploads or storage
-- No real email, SMS, or WhatsApp delivery
-- No real sanctions screening integrations
-- No live shipment tracking integrations
-
-Local commands:
-- npm install
-- npm run build
-- npm run dev -- --host 127.0.0.1 --port 4178
-
-Workspace lanes:
-- Raw import lane: canonical project imports location
-- Sandbox lane: van scrub workspace
-- Active Vite source: /home/patrick/projects/websites/trade-bridge/source-vite/
-- Reports: /home/patrick/projects/websites/trade-bridge/reports/
+Rules:
+- Keep the runnable Vite project at the project root, not in a nested app subfolder.
+- Keep the archive and sandbox clean of legacy platform references.
+- Do not combine the local Vite baseline with the separate Next.js conversion phase.
+- Do not use Downloads or `/home/patrick/` as working directories.
