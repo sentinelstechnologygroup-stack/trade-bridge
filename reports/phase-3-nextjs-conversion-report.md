@@ -67,6 +67,6 @@ Known issues:
 - Phase 3 implementation commit hash: 70c0b49
 - Push result: PASS. origin/main updated on GitHub
 - lint emits a non-blocking module-type warning for eslint.config.js
-Commit hash if committed: 70c0b49
+Commit hash if committed: 837e6b8
 Next recommended phase: Phase 4 — Production Hardening
 SEO, metadata, forms, accessibility, analytics, portal security, backend/data planning.

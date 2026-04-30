@@ -5,7 +5,7 @@ Git repo exists: Yes
 Repo root: /home/patrick/projects/websites/trade-bridge
 Current branch: main
 Phase 3 implementation commit: 73f51a2 feat: add Trade Bridge Next.js conversion
-Final acceptance/report commit: 70c0b49 fix: isolate next dev build output
+Final acceptance/report commit: 837e6b8 docs: record next runtime isolation fix
 Working tree status at final report update:
 - Clean after Phase 3 implementation push; only report finalization updates were pending before this report write
 Remote status: PASS. origin is configured.
