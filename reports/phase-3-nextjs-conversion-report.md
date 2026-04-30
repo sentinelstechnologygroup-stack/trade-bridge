@@ -59,10 +59,10 @@ Known placeholders:
 - real payment processing
 - real AI feasibility agent
 Known issues:
-- root .gitignore was corrected in this pass so source-next source files are now trackable while source-next/node_modules, source-next/.next, and source-next/out remain ignored
+- root .gitignore was corrected in this pass so source-next source files are now trackable while source-next/node_modules, source-next/.next, source-next/.next-dev, and source-next/out remain ignored
 - source-next tracking result: PASS. git check-ignore returned no ignore rule for source-next/app/layout.jsx or source-next/package.json
 - forbidden tracked file result: PASS. git ls-files hygiene scan returned no forbidden tracked files
-- Initial runtime verification exposed a stale `.next` / concurrent-dev artifact issue in `next start`; moving aside the old `.next`, rebuilding, and restarting the production server restored stable local runtime
+- Initial runtime verification exposed a stale `.next` / concurrent-dev artifact issue in `next start`; isolating dev output into `.next-dev`, rebuilding production, and relaunching both lanes restored stable local runtime for both `next start` and `next dev`
 - GitHub repo URL: https://github.com/sentinelstechnologygroup-stack/trade-bridge
 - Phase 3 implementation commit hash: 8878fb5
 - Push result: PASS. origin/main updated on GitHub

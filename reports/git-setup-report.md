@@ -24,11 +24,11 @@ Forbidden reference scan result: PASS. Root and source-next legacy reference sca
 Push status: PASS. origin/main updated on GitHub.
 Changes made:
 - Verified repo root, branch, and GitHub origin from WSL.
-- Corrected .gitignore so source-next source files are tracked while generated Next output remains ignored.
+- Corrected .gitignore so source-next source files are tracked while generated Next output remains ignored, including the dedicated `.next-dev` lane.
 - Verified Vite and Next build gates.
 - Verified Next App Router structure and trackability.
 - Committed and pushed the Phase 3 Next.js conversion.
-- Resolved a stale `.next` / concurrent-dev runtime artifact issue by moving aside the old build state, rebuilding source-next, and restarting the production server before final local runtime verification.
+- Resolved a stale `.next` / concurrent-dev runtime artifact issue by isolating dev output into `.next-dev`, rebuilding production, and relaunching both runtime lanes.
 - Updated this report for final Phase 3 acceptance.
 Commit created: Yes.
 Next recommended action:

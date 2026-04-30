@@ -33,6 +33,7 @@ sandboxes/
 # Next.js conversion lane: keep source tracked, ignore generated output only
 source-next/node_modules/
 source-next/.next/
+source-next/.next-dev/
 source-next/out/
 
 # Editor directories and files
